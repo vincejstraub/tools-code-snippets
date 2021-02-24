@@ -27,12 +27,12 @@ import matplotlib.pyplot
 def main():
     pass
 
+
 def summary_info(df):
     """AIM -> Provide summary info.
     INPUT  -> df.
     OUTPUT -> shape, info, describe."""
     cols = list(df.columns)
-    
     print('\n\n Dimensionaltiy\n')
     display(df.shape)
     print('\n\n Summary data types info')
@@ -40,12 +40,14 @@ def summary_info(df):
     print('\n\n Summary of all columns when the dataframe has mixed column types\n')
     display(df.describe(include = 'all'))
 
+    
 def drop_multiple_col(col_names_list, df): 
     """AIM -> Drop multiple columns based on their column names.
     INPUT -> List of column names, df.
     OUTPUT -> updated df with dropped columns"""
     df.drop(col_names_list, axis=1, inplace=True)
     return df
+
 
 def all_object_to_numeric(df): 
     """AIM-> Changing dtypes to save memory
@@ -67,13 +69,16 @@ def remove_col_str(df):
     # remove all the characters after &# (including &#) for column - col_1
     df['col_1'].replace(' &#.*', '', regex=True, inplace=True)
 
+    
 def remove_col_white_space(df,col):
     # remove white space at the beginning of string 
     df[col] = df[col].str.lstrip()
 
+    
 def color_vals(val):
     color = 'blue' if val < 0 else 'black'
     return 'color: %s' % color
+
 
 def color_negative_vals(df):
     """Takes a scalar and returns a string with
@@ -86,9 +91,11 @@ def highlight_max_vals(s):
     is_max = s == s.max()
     return ['background-color: red' if v else '' for v in is_max]
 
+
 def highlight_min_vals(s):
     is_max = s == s.min()
     return ['background-color: lightblue' if v else '' for v in is_max]
+
 
 def highlight_minmax(df):
     """Highlight the maximum and minimum in a Series/Pandas column."""
@@ -132,6 +139,7 @@ def magnify_heatmap(df,cm=sns.diverging_palette(5, 250, as_cmap=True)):
                  props=[('max-width', '200px'),
                         ('font-size', '12pt')])])
     return bigdf
+
 
 def data_summary(X_train, y_train, X_test, y_test):
     """Summarize dataset."""
