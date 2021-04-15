@@ -1,5 +1,5 @@
 # Vince J. Straub, 2020
-# This script provides useful additional pandas functions for summarizing a dataframe object
+# This script provides custom additional pandas functions for summarizing a dataframe object
 # and exploring a dataframe via Pandas's styling functions which is accessed by writing df.style
 # (for more details see: https://pandas.pydata.org/pandas-docs/stable/user_guide/style.html)
 
