@@ -4,7 +4,7 @@
 """
 Provides additional pandas functions for interacting with a dataframe object. 
 
-
+Adhere to the followin instructions to get the most out of the module:
 1. Pass your style functions into one of the following methods:
     Styler.applymap: elementwise
     Styler.apply: column-/row-/table-wise
