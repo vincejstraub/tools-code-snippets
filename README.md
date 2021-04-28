@@ -1,9 +1,9 @@
 # Custom Pandas Functions
 
-Module that contains a collection of custom functions for making exploratory data analysis with Pandas easier and faster.
+Script containing a collection of custom functions for making exploratory data analysis with Pandas easier and faster.
 
 * All functions are contained in the script `pandas_funcs.py`.
 
 ## License
 
-If using a shared private repository, explain that project is yet to be made publicly available hence no license is included otherwise include the license in a `.md` file.
+This code is being released with a permissive open-source license. You should feel free to use or adapt the code as long as you follow the terms of the license.
