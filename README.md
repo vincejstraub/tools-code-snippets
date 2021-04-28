@@ -2,7 +2,7 @@
 
 Module that contains a collection of custom functions for making exploratory data analysis with Pandas easier and faster.
 
-* All functions are contained in the script `pandas_functions.py`.
+* All functions are contained in the script `pandas_funcs.py`.
 
 ## License
 
