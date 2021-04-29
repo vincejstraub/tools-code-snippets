@@ -1,10 +1,10 @@
-# Custom Pandas Functions
+# Code Snippets
 
-Script containing a collection of custom functions for making exploratory data analysis with Pandas easier and faster.
+A a collection of code snippets for making exploratory data analysis with python easier and faster.
 
 ## Files
 
-* All functions are contained in the script `pandas_funcs.py`.
+* `pandas_funcs.py`: additional functions to make inspecting a Pandas DataFrame object quicker and more exhaustive.
 
 ## Requirements
 - Python 3.7.7
