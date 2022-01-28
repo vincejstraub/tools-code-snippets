@@ -4,7 +4,7 @@ A a collection of code snippets and custom functions for making exploratory data
 
 ## Files
 
-* `pandas_funcs.py`: additional functions to make inspecting a Pandas DataFrame object quicker and more exhaustive.
+* `scripts/pandas_funcs.py`: additional functions to make inspecting a Pandas DataFrame object quicker and more exhaustive.
 
 ## Requirements
 - Python 3.7.7
