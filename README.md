@@ -1,6 +1,6 @@
 # Code Snippets
 
-A a collection of code snippets and custom functions for making exploratory data analysis with Python easier and faster.
+A a collection of code snippets and custom functions for making data wrangling and exploratory data analysis with pandas easier and faster.
 
 ## Files
 
